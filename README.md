@@ -1,7 +1,7 @@
 # Wed-based-weather-forecast-and-prediction-Project
 Javascript Based weather forecast Project made with the help of OpenWeather API.
 Hello Reader,
-My name is Manan Bahuguna I am a student at graphic era hill university Dehradun ,currently persuing bachelor in Computer science. This text file gives my detailed account on weather forcast website as a part of my virtual internship with dilwado.com .
+My name is Manan ,I am a student at graphic era hill university Dehradun ,currently persuing bachelor in Computer science. This text file gives my detailed account on weather forcast website as a part of my virtual internship with dilwado.com .
 TIMELINE:
 week 1:The First week was spent creating the basic layout of the website with the help of HTML and CSS with different areas for navbar,table cards, heading,etc.
 week 2: This week was spent with the nightmare that javascript was with different API and other such elements as well as adding map as an element and streamlining all different parts.
