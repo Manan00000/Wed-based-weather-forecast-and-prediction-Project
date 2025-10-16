@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap');
+body{
+    background: linear-gradient(135deg, #83a4d4, #b6fbff);
+    text-decoration: none;
+    font-family: 'Open-Sans',Arial, Helvetica, sans-serif;
+}
+li{
+    list-style-type: none;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    padding-left: 10px;
+    width: 97vw;
+    height: 60px;
+}
+.navbar h1{
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width:300px;
+}
+.abt{
+    padding-left:5px ;
+    padding-top:25px;
+    padding-right: 60%;
+    cursor: pointer;
+}
+.abt a{
+    text-decoration: none;
+    padding-top: 30px;
+}
+#search{
+    width:500px;
+    height: 100%;
+    display: flex;
+    flex-direction:row;
+}
+#search input{
+    height: 40px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: 'Open-Sans',Arial, Helvetica, sans-serif;
+    font-size: medium;
+    padding-left: 5px;
+}
+.sub-btn-primary{
+    padding: 9px 20px;
+    border-radius: 22px;
+    font-family: "Epunda Slab",sans-serif;
+    background-color: rgb(62, 75, 189);
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 3px;
+    cursor: pointer;
+    height: 40px;
+}
+.sub-btn-primary:hover{
+    background-color: rgb(72, 114, 230);
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 100;
+    font-family: 'Open-Sans',Arial, Helvetica, sans-serif;
+}
+.table{
+    display: flex;
+    flex-direction: row;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.col{
+    height: 300px;
+    width: 33.33%;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.card{
+    border: 1px solid gray;
+    border-radius: 10px;
+    height: 100%;
+}
+.card-header{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    height: 25px;
+    width:100%;
+    border-bottom: 1px solid gray ;
+    background-color: rgb(62, 75, 189);
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px ;
+    color: aliceblue;
+    font-size: 25px;
+}
+.card-header h4{
+    margin: 0px;
+}
+.card-body{
+    padding: 16px;
+    height: 70%;
+}
+.card-title{
+    font-weight: 100;
+}
+#mapFrame {
+  transition: opacity 0.5s ease;
+  opacity: 0;
+}
+.listcom{
+    padding-left: 0%;
+}
+.listcom li{
+    height:20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#mapFrame.loaded {
+  opacity: 1;
+}
+@media(max-width:600px)
+{
+    .abt{
+    padding-left:5px ;
+    padding-top:5px;
+    }
+    .navbar{
+        height:175px;
+        display: flex;
+        flex-direction:column;
+    }
+    #search{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .sub-btn-primary{
+        width:100px;
+        font-size: 18px;
+        margin: 5px 0px;
+        cursor: pointer;
+    }
+    h1{
+        margin:0px;
+        padding: 0px;
+        padding-bottom: 10px;
+    }
+    h2{
+        margin:0px;
+        padding: 0px;
+        padding-bottom: 10px;
+    }
+    .table{
+        display: flex;
+        flex-direction: column;
+        height: 1000px;
+    }
+    .col{
+    height: 300px;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+    .map-container{
+        width:80%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+#forecastSection {
+  margin-top: 30px;
+  text-align: center;
+}
+
+#forecastTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+#forecastTable th, #forecastTable td {
+  padding: 8px;
+    border: 1px solid gray;
+  font-size: 0.9rem;
+}
+
+#forecastTable th {
+  background: rgb(62, 75, 189);
+  color: aliceblue;
+}
+
+#recentSection {
+  margin-top: 40px;
+  text-align: center;
+}
+
+#recentCities {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+#recentCities li {
+  background: rgb(62, 75, 189);
+  color: aliceblue;
+  padding: 8px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#recentCities li:hover {
+  background: rgb(72, 114, 230);
+}
