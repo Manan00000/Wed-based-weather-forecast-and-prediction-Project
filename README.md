@@ -1,5 +1,5 @@
 # Wed-based-weather-forecast-and-prediction-Project
-Javascript Based weather forecast Project made with the help of OpenWeather API
+Javascript Based weather forecast Project made with the help of OpenWeather API.
 Hello Reader,
 My name is Manan Bahuguna I am a student at graphic era hill university Dehradun ,currently persuing bachelor in Computer science. This text file gives my detailed account on weather forcast website as a part of my virtual internship with dilwado.com .
 TIMELINE:
