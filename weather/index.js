@@ -1,6 +1,6 @@
 //initializing variable
 const url = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
-const apikey = "750bc2287ea683ec1b0c089a33ac40a2";
+const apikey = "YourAPIKey";
 const input = document.getElementById("cityInput");
 const submitbtn = document.getElementById("searchBtn");
 const forecastBody = document.getElementById("forecastBody");
@@ -136,4 +136,5 @@ mapFrame.addEventListener("load", () => {
   mapFrame.classList.add("loaded");
 });
 renderRecentCities();
+
 if (recentCities[0]) handleSearch(recentCities[0]);
